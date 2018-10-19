@@ -37,7 +37,7 @@ Released   : 20121118
 <jsp:include page="menu.jsp"></jsp:include>
 
 <div id="page" class="container">
-${Title}
+
 ${Message}
 ${PersonList}
 <form action="${ActionName}" method="post">
