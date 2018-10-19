@@ -55,7 +55,7 @@ public class MainController {
  		String age = req.getParameter("age");
  		String phone = req.getParameter("phone");
  		
- 		m.put("NameValue", name);
+ 		m.put("NameValue", n);
  		m.put("AgeValue", age);
  		m.put("PhoneValue", phone);
  		if (name.equals("")) {
